@@ -184,3 +184,94 @@ button {
   letter-spacing: 0%;
   text-align: left;
 }
+
+.Inspiration{
+    padding-top: 25px;
+}
+
+.frame{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.cart{
+    display: flex;
+    margin-top: 35px;
+    width: 1140px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.c1{
+    padding: 30px;
+    width: 300px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.c2{
+    padding: 30px;
+    width: 300px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.c3{
+    padding: 30px;
+    width: 300px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.head{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.head-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.cart a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
