@@ -185,109 +185,197 @@ button {
   text-align: left;
 }
 
-.Inspiration{
-    padding-top: 25px;
+.Inspiration {
+  padding-top: 25px;
 }
 
-.frame{
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 65px;
+.frame {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 65px;
 }
 
-.cart{
-    display: flex;
-    margin-top: 35px;
-    width: 1140px;
-    height: 315px;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 20px;
+.cart {
+  display: flex;
+  margin-top: 35px;
+  width: 1140px;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
 }
 
-.c1{
-    padding: 30px;
-    width: 300px;
-    height: 220px;
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+.c1 {
+  padding: 30px;
+  width: 300px;
+  height: 220px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
 }
-.c2{
-    padding: 30px;
-    width: 300px;
-    height: 220px;
-    border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05);
+.c2 {
+  padding: 30px;
+  width: 300px;
+  height: 220px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
 }
-.c3{
-    padding: 30px;
-    width: 300px;
-    height: 220px;
-    border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
-}
-
-.head{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 22px;
-font-weight: 800;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+.c3 {
+  padding: 30px;
+  width: 300px;
+  height: 220px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
 
-.head-des{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
+.head {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.cart a{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+.head-des {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
-.next{
-    width: 1140px;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border: 0.1px solid gray;
-    border-radius: 8px;
+.cart a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
 
-.react{
-    display: flex;
-    padding: 20px;
-    text-align: start;
-    gap: 25px;
-    align-items: center;
+.next {
+  width: 1140px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 0.1px solid gray;
+  border-radius: 8px;
+}
+
+.react {
+  display: flex;
+  padding: 20px;
+  text-align: start;
+  gap: 25px;
+  align-items: center;
 }
 
 .react a {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-decoration-line: underline;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
+
+.support{
+    color: rgb(255, 255, 255);
+    margin-top: 65px;
+    width: 1140px;
+    height: 313px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-position: center;
+    background-image: url(../img/handshake.jpg);
+    border-radius: 8px;
+}
+
+.support h1{
+    padding-top: 45px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.support p{
+    width: 606px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+width: 548px;
+height: 45px;
+padding: 8px;
+background: rgb(255, 255, 255);
+}
+
+.support a{
+    width: 171px;
+    height: 47px;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+footer{
+    margin-top: 40px;
+    border-radius: 16px;
+width: 100%;
+height: 50px;
+background: rgba(13, 19, 33, 0.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
