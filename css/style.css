@@ -201,7 +201,7 @@ button {
     display: flex;
     margin-top: 35px;
     width: 1140px;
-    height: 500px;
+    height: 315px;
     margin-left: auto;
     margin-right: auto;
     gap: 20px;
@@ -260,11 +260,34 @@ text-align: left;
 text-decoration-line: underline;
 }
 
+.next{
+    width: 1140px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0.1px solid gray;
+    border-radius: 8px;
+}
 
+.react{
+    display: flex;
+    padding: 20px;
+    text-align: start;
+    gap: 25px;
+    align-items: center;
+}
 
-
-
-
+.react a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 
 
