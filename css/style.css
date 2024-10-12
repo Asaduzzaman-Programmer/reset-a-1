@@ -268,6 +268,7 @@ button {
   text-align: center;
   border: 0.1px solid gray;
   border-radius: 8px;
+  box-shadow: 2px 2px 8px gray;
 }
 
 .react {
@@ -290,18 +291,24 @@ button {
 }
 
 .support{
-    color: rgb(255, 255, 255);
+    
     margin-top: 65px;
     width: 1140px;
     height: 313px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-position: center;
+    
     background-image: url(../img/handshake.jpg);
+    filter: brightness(70%);
     border-radius: 8px;
+    
+
 }
 
+.color{
+    color: rgb(255, 255, 255);
+}
 .support h1{
     padding-top: 45px;
     color: rgb(255, 255, 255);
@@ -361,8 +368,29 @@ height: 50px;
 background: rgba(13, 19, 33, 0.03);
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    margin-left: 360px;
+    margin-right: 360px;
+    justify-content: space-between;
 
+}
 
+.font i{
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.flex h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 
 
